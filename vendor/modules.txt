@@ -18,8 +18,8 @@ github.com/cloudflare/brotli-go/brotli
 github.com/cloudflare/brotli-go/common
 github.com/cloudflare/brotli-go/dec
 github.com/cloudflare/brotli-go/enc
-# github.com/cloudflare/circl v1.2.1-0.20220809205628-0a9554f37a47
-## explicit; go 1.16
+# github.com/cloudflare/circl v1.3.3
+## explicit; go 1.19
 github.com/cloudflare/circl/dh/x25519
 github.com/cloudflare/circl/dh/x448
 github.com/cloudflare/circl/internal/conv
@@ -40,6 +40,7 @@ github.com/cloudflare/circl/pke/kyber/kyber512/internal
 github.com/cloudflare/circl/pke/kyber/kyber768
 github.com/cloudflare/circl/pke/kyber/kyber768/internal
 github.com/cloudflare/circl/simd/keccakf1600
+github.com/cloudflare/circl/xof
 # github.com/cloudflare/golibs v0.0.0-20170913112048-333127dbecfc
 ## explicit
 github.com/cloudflare/golibs/lrucache
@@ -350,6 +351,7 @@ go.uber.org/automaxprocs/maxprocs
 # golang.org/x/crypto v0.8.0
 ## explicit; go 1.17
 golang.org/x/crypto/blake2b
+golang.org/x/crypto/blake2s
 golang.org/x/crypto/blowfish
 golang.org/x/crypto/chacha20
 golang.org/x/crypto/chacha20poly1305
