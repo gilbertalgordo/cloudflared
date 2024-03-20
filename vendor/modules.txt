@@ -8,7 +8,7 @@ github.com/apparentlymart/go-cidr/cidr
 # github.com/beorn7/perks v1.0.1
 ## explicit; go 1.11
 github.com/beorn7/perks/quantile
-# github.com/cespare/xxhash/v2 v2.1.2
+# github.com/cespare/xxhash/v2 v2.2.0
 ## explicit; go 1.11
 github.com/cespare/xxhash/v2
 # github.com/cloudflare/brotli-go v0.0.0-20191101163834-d34379f7ff93
@@ -18,8 +18,8 @@ github.com/cloudflare/brotli-go/brotli
 github.com/cloudflare/brotli-go/common
 github.com/cloudflare/brotli-go/dec
 github.com/cloudflare/brotli-go/enc
-# github.com/cloudflare/circl v1.2.1-0.20220809205628-0a9554f37a47
-## explicit; go 1.16
+# github.com/cloudflare/circl v1.3.7
+## explicit; go 1.19
 github.com/cloudflare/circl/dh/x25519
 github.com/cloudflare/circl/dh/x448
 github.com/cloudflare/circl/internal/conv
@@ -40,6 +40,8 @@ github.com/cloudflare/circl/pke/kyber/kyber512/internal
 github.com/cloudflare/circl/pke/kyber/kyber768
 github.com/cloudflare/circl/pke/kyber/kyber768/internal
 github.com/cloudflare/circl/simd/keccakf1600
+github.com/cloudflare/circl/xof
+github.com/cloudflare/circl/xof/k12
 # github.com/cloudflare/golibs v0.0.0-20170913112048-333127dbecfc
 ## explicit
 github.com/cloudflare/golibs/lrucache
@@ -119,7 +121,7 @@ github.com/go-chi/chi/v5
 # github.com/go-chi/cors v1.2.1
 ## explicit; go 1.14
 github.com/go-chi/cors
-# github.com/go-jose/go-jose/v3 v3.0.0
+# github.com/go-jose/go-jose/v3 v3.0.3
 ## explicit; go 1.12
 github.com/go-jose/go-jose/v3
 github.com/go-jose/go-jose/v3/cipher
@@ -155,7 +157,7 @@ github.com/golang-collections/collections/queue
 ## explicit; go 1.11
 github.com/golang/mock/mockgen
 github.com/golang/mock/mockgen/model
-# github.com/golang/protobuf v1.5.2
+# github.com/golang/protobuf v1.5.3
 ## explicit; go 1.9
 github.com/golang/protobuf/jsonpb
 github.com/golang/protobuf/proto
@@ -347,9 +349,10 @@ go.opentelemetry.io/proto/otlp/trace/v1
 go.uber.org/automaxprocs/internal/cgroups
 go.uber.org/automaxprocs/internal/runtime
 go.uber.org/automaxprocs/maxprocs
-# golang.org/x/crypto v0.8.0
-## explicit; go 1.17
+# golang.org/x/crypto v0.19.0
+## explicit; go 1.18
 golang.org/x/crypto/blake2b
+golang.org/x/crypto/blake2s
 golang.org/x/crypto/blowfish
 golang.org/x/crypto/chacha20
 golang.org/x/crypto/chacha20poly1305
@@ -377,11 +380,10 @@ golang.org/x/mod/internal/lazyregexp
 golang.org/x/mod/modfile
 golang.org/x/mod/module
 golang.org/x/mod/semver
-# golang.org/x/net v0.9.0
+# golang.org/x/net v0.10.0
 ## explicit; go 1.17
 golang.org/x/net/bpf
 golang.org/x/net/context
-golang.org/x/net/context/ctxhttp
 golang.org/x/net/http/httpguts
 golang.org/x/net/http2
 golang.org/x/net/http2/hpack
@@ -396,18 +398,17 @@ golang.org/x/net/ipv6
 golang.org/x/net/proxy
 golang.org/x/net/trace
 golang.org/x/net/websocket
-# golang.org/x/oauth2 v0.4.0
+# golang.org/x/oauth2 v0.7.0
 ## explicit; go 1.17
 golang.org/x/oauth2
 golang.org/x/oauth2/internal
 # golang.org/x/sync v0.1.0
 ## explicit
 golang.org/x/sync/errgroup
-# golang.org/x/sys v0.7.0
-## explicit; go 1.17
+# golang.org/x/sys v0.17.0
+## explicit; go 1.18
 golang.org/x/sys/cpu
 golang.org/x/sys/execabs
-golang.org/x/sys/internal/unsafeheader
 golang.org/x/sys/plan9
 golang.org/x/sys/unix
 golang.org/x/sys/windows
@@ -415,11 +416,11 @@ golang.org/x/sys/windows/registry
 golang.org/x/sys/windows/svc
 golang.org/x/sys/windows/svc/eventlog
 golang.org/x/sys/windows/svc/mgr
-# golang.org/x/term v0.7.0
-## explicit; go 1.17
+# golang.org/x/term v0.17.0
+## explicit; go 1.18
 golang.org/x/term
-# golang.org/x/text v0.9.0
-## explicit; go 1.17
+# golang.org/x/text v0.14.0
+## explicit; go 1.18
 golang.org/x/text/cases
 golang.org/x/text/internal
 golang.org/x/text/internal/language
@@ -461,12 +462,12 @@ google.golang.org/appengine/internal/log
 google.golang.org/appengine/internal/remote_api
 google.golang.org/appengine/internal/urlfetch
 google.golang.org/appengine/urlfetch
-# google.golang.org/genproto v0.0.0-20221202195650-67e5cbc046fd
+# google.golang.org/genproto v0.0.0-20230410155749-daa745c078e1
 ## explicit; go 1.19
 google.golang.org/genproto/googleapis/api/httpbody
 google.golang.org/genproto/googleapis/rpc/status
 google.golang.org/genproto/protobuf/field_mask
-# google.golang.org/grpc v1.51.0
+# google.golang.org/grpc v1.56.3
 ## explicit; go 1.17
 google.golang.org/grpc
 google.golang.org/grpc/attributes
@@ -516,14 +517,15 @@ google.golang.org/grpc/serviceconfig
 google.golang.org/grpc/stats
 google.golang.org/grpc/status
 google.golang.org/grpc/tap
-# google.golang.org/protobuf v1.28.1
-## explicit; go 1.11
+# google.golang.org/protobuf v1.33.0
+## explicit; go 1.17
 google.golang.org/protobuf/encoding/protojson
 google.golang.org/protobuf/encoding/prototext
 google.golang.org/protobuf/encoding/protowire
 google.golang.org/protobuf/internal/descfmt
 google.golang.org/protobuf/internal/descopts
 google.golang.org/protobuf/internal/detrand
+google.golang.org/protobuf/internal/editiondefaults
 google.golang.org/protobuf/internal/encoding/defval
 google.golang.org/protobuf/internal/encoding/json
 google.golang.org/protobuf/internal/encoding/messageset
@@ -547,6 +549,7 @@ google.golang.org/protobuf/reflect/protoregistry
 google.golang.org/protobuf/runtime/protoiface
 google.golang.org/protobuf/runtime/protoimpl
 google.golang.org/protobuf/types/descriptorpb
+google.golang.org/protobuf/types/gofeaturespb
 google.golang.org/protobuf/types/known/anypb
 google.golang.org/protobuf/types/known/durationpb
 google.golang.org/protobuf/types/known/fieldmaskpb
